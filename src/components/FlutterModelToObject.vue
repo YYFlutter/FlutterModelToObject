@@ -59,7 +59,7 @@ export default {
           }${k} = json['${k}'];\n`;
           this.fromObjectStr += `${this.split}${
             this.split
-          }'${k}' = instance.${k};\n`;
+          }'${k}' : instance.${k};\n`;
           this.typeFormat(k, o);
           this.initString += `${this.split}${this.split}this.${k},\n`;
         }
