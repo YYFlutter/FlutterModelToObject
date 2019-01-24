@@ -1,4 +1,4 @@
-# tool
+# Flutter JSON TO Object
 
 ## Project setup
 ```

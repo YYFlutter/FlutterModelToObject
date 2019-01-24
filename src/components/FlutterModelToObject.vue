@@ -4,6 +4,7 @@
     <div class="json item">
       <input v-model="className">
       <textarea v-model="json"></textarea>
+      <button @click="fromJsonFormat()">Generate</button>
     </div>
     <div class="code item">
       <pre>
@@ -117,6 +118,12 @@ body {
       padding: 5px;
       width: 100%;
       height: 30vh;
+    }
+    button {
+      background: #222;
+      color: #fff;
+      border: 0;
+      padding: 8px 32px;
     }
   }
   .code {
